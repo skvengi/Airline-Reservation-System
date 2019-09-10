@@ -1,0 +1,125 @@
+<html>
+<head><title></title></head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="history.css" />
+<style>	
+	.container{
+	   right: 0;
+	   
+       
+       max-width: 400px;
+       padding: 20px;
+       color:white;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+       
+  
+}}
+
+form{
+float:right;
+padding:10px;
+margin:50px;
+
+max-height:100px;}
+body{
+background-image:url("images\\z1.jpeg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+label{
+color: #fff;}
+
+img {
+  border-radius: 80%;
+  
+}
+
+  .box {
+        float:center;           
+	   max-width: 500px;
+       padding: 20px;
+	   margin-left:430px;
+	   margin-top:100px;
+       padding: 35px;         
+       text-align: center;
+	   opacity: 0.9;
+ 
+          }
+    .button {
+            font-size: 1em;
+            padding: 10px;
+            color: #fff;
+            
+           
+            
+            
+            
+          }
+          .button:hover {
+            background: orange;
+          }
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: visible;
+            opacity: 1;
+          }
+          .overlay:target {
+            visibility: hidden;
+            opacity: 0;
+            display:none
+          }
+          .popup { position: relative;
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 30%;
+            
+            transition: all 5s ease-in-out; }
+
+
+</style>
+<body>
+
+    <div class="box">
+	 <div class="container">
+    <form action="UserCon" method="post">
+	  <img src="images\\logo.png" style="width:150px"  >
+	  
+         <table>
+		    <tr>   
+	          <td><label for="Email1" ><b>Username</b></label>  
+                  <input  style="width:350px"type="email"  class="form-control" id="Email1" placeholder="Enter Username" name="email1"></td>  
+             </tr>
+			 <tr>
+              <td>
+               <label for="Password1"><b>Password</b></label>  
+              <input type="password" class="form-control" id="Password1" placeholder="Enter Password" name="pass1"></td>
+             </tr>			  
+		</table>
+    <br>
+     <button type="submit" class="btn btn-success">Login</button>
+  </form>
+		</div>
+		
+    </div> 
+</body>
+</html>
+
+
+
+
